@@ -1,0 +1,41 @@
+i {
+  color: black;
+}
+
+.main-header {
+  padding-top: 1rem;
+  width: 100%;
+  height: 80px;
+  background-color: #F7BA01;
+}
+.main-header .logo i {
+  -webkit-animation: gear 5s linear infinite;
+          animation: gear 5s linear infinite;
+  font-size: 30px;
+}
+@-webkit-keyframes gear {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gear {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.main-header .right-header .theme {
+  font-weight: bold;
+  padding-right: 31rem;
+  font-size: 30px;
+}
+
+#Parts .card .card-img-top {
+  height: 250px;
+  width: 280px;
+}/*# sourceMappingURL=style.css.map */
